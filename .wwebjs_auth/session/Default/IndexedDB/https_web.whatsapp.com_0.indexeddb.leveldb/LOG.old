@@ -1,0 +1,23 @@
+2024/12/02-14:01:44.222 284e0 Reusing MANIFEST /home/fadillads/work/diskominfo/itso-wa-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/02-14:01:44.222 284e0 Recovering log #279
+2024/12/02-14:01:44.225 284e0 Reusing old log /home/fadillads/work/diskominfo/itso-wa-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000279.log 
+2024/12/02-14:01:46.153 284ce Level-0 table #289: started
+2024/12/02-14:01:46.157 284ce Level-0 table #289: 33928 bytes OK
+2024/12/02-14:01:46.160 284ce Delete type=0 #279
+2024/12/02-14:01:46.160 284ce Manual compaction at level-0 from '\x00.\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/02-14:01:46.265 284e0 Compacting 1@1 + 6@2 files
+2024/12/02-14:01:46.364 284e0 Generated table #290@1: 51389 keys, 2210368 bytes
+2024/12/02-14:01:46.424 284e0 Generated table #291@1: 16234 keys, 2175382 bytes
+2024/12/02-14:01:46.499 284e0 Generated table #292@1: 16186 keys, 2210641 bytes
+2024/12/02-14:01:46.567 284e0 Generated table #293@1: 23246 keys, 2173656 bytes
+2024/12/02-14:01:46.671 284e0 Generated table #294@1: 99874 keys, 2249524 bytes
+2024/12/02-14:01:46.688 284e0 Generated table #295@1: 13225 keys, 300289 bytes
+2024/12/02-14:01:46.688 284e0 Compacted 1@1 + 6@2 files => 11319860 bytes
+2024/12/02-14:01:46.690 284e0 compacted to: files[ 0 0 6 0 0 0 0 ]
+2024/12/02-14:01:46.691 284e0 Delete type=2 #285
+2024/12/02-14:01:46.691 284e0 Delete type=2 #281
+2024/12/02-14:01:46.691 284e0 Delete type=2 #284
+2024/12/02-14:01:46.691 284e0 Delete type=2 #282
+2024/12/02-14:01:46.691 284e0 Delete type=2 #286
+2024/12/02-14:01:46.691 284e0 Delete type=2 #289
+2024/12/02-14:01:46.691 284e0 Delete type=2 #283

@@ -1,0 +1,29 @@
+name: nest-wa-bot
+services:
+  # postgres:
+  #   image: postgres
+  #   restart: always
+  #   environment:
+  #     - POSTGRES_PASSWORD=postgres
+  #   user: root
+  #   volumes:
+  #     - ./pgdata:/var/lib/postgresql/data
+  #   ports:
+  #     - '5432:5432'
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # target: development
+    develop:
+      watch:
+        - action: sync
+          path: src
+          target: /app
+        - action: rebuild
+          path: package.json
+    ports:
+      - '3000:3000'
+    # depends_on:
+    #   - db
